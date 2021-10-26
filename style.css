@@ -15,6 +15,12 @@ nav{
     text-align:right;
 
 }
+/*
+.logo, .logo.jpeg {
+    background: transparent;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+}*/
 
 nav ul {
     display: inline-block;
@@ -75,13 +81,13 @@ padding-right: 25px;
     padding: 8px ;
     margin: 30px 0;
     border-radius: 30px;
-    transition: background 0.5s;
+    transition: 0.5s;
 }
 .btn:hover {
     background: #563434;
 }
 .header{
-    background: radial-gradient(#ff523b, #ffd6d6);
+    background: radial-gradient(#ff3e3e, #ffd6d6);
 }
 
 .header .row {
@@ -267,6 +273,7 @@ small{
 .footer-col-2 img {
     width: 180px;
     margin-bottom: 20px;
+   
 }
 .footer-col-3, .footer-col-4 {
     flex-basis: 12%;
