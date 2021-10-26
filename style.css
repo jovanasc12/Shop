@@ -277,6 +277,7 @@ small{
 }
 .footer-col-3, .footer-col-4 {
     flex-basis: 12%;
+    text-align: center;
 }
 ul {
     list-style-type: none;
@@ -287,6 +288,13 @@ ul {
 }
 .app-logo img {
     width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
 }
 
 .copyright {
